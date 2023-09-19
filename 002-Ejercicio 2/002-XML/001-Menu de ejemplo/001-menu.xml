@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<barra>
+    <menu>
+        <comando>Nuevo</comando>
+        <comando>Abrir</comando>
+        <comando>Guardar</comando>
+    </menu>
+    <menu></menu>
+    <menu></menu>
+</barra>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<barra>
+    <menu texto="Archivo">
+        <comando texto="Nuevo"></comando>
+        <comando texto="Abrir"></comando>
+        <comando texto="Guardar"></comando>
+    </menu>
+    <menu texto="Editar">
+        <comando texto="Copiar"></comando>
+        <comando texto="Cortar"></comando>
+        <comando texto="Pegar"></comando>
+    </menu>
+    <menu texto="Ayuda">
+        <comando texto="Sobre nosotros"></comando>
+        <comando texto="Ayuda en línea"></comando>
+    </menu>
+</barra>
