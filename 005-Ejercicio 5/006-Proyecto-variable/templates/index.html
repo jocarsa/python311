@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h1 id="titulo"></h1>
+        <script>
+            fetch("http://127.0.0.1:5000/damedatos")
+            .then(response => {
+                return response.text();
+              })
+              .then(data => {
+                console.log(data);
+                document.getElementById("titulo").innerHTML = data
+              })
+        </script>
+    </body>
+</html>

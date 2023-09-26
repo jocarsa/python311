@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            html,body{width:100%;height:100%;}
+            #mensajes{width:95%;height:90%;border:1px solid grey;overflow-y:scroll;}
+            #mimensaje{position:absolute;bottom:10px;width:95%;}
+        </style>
+    </head>
+    <body>
+        <div id="mensajes"></div>
+        <input id="mimensaje">
+        <script>
+            document.getElementById("mimensaje").onkeydown = function(e){
+                if (e.keyCode === 13) {
+                    var mimensaje = this.value
+                    fetch("http://192.168.1.215:5000/envia?mensaje="+mimensaje)
+                    this.value = ""
+                }
+            }
+            
+        </script>
+    </body>
+</html>
